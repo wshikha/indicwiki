@@ -1,0 +1,144 @@
+
+* {
+    font-family: font-family:'font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: large;
+}
+
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: rgb(6, 6, 156);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-toggler{
+   background-color: white;
+}
+.cont {
+    min-height: 550px;
+    width: 100%;
+    background-image: linear-gradient(160deg, #f091cd, #bef4fa, rgb(20, 216, 246), #4c06c4, rgb(47, 8, 245), #6de2fa, #f0b491);
+    color: white;
+}
+
+.para{
+    animation: move-rtl 6000ms linear infinite;
+}
+@keyframes move-rtl{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+.recentwork {
+    background-image: linear-gradient(120deg, rgba(0, 162, 255, 0.526), rgba(0, 0, 255, 0.035), rgba(0, 0, 255, 0.081), rgba(0, 0, 255, 0.081), rgba(0, 162, 255, 0.526));
+}
+
+.recent-works {
+    border-radius: 50px;
+    height: 180px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(45deg, darkblue, rgb(4, 4, 88), rgb(61, 61, 85));
+}
+#element{
+    color:black;
+    font-size: 30px;
+    font-style:initial;
+    margin-left: 200px;
+}
+    .contain{
+    height: 40px;
+    background-color: #f0b491;
+    color:black
+   }
+.cont3 {
+    min-height: 230px;
+    background-color: rgb(5, 5, 72);
+    color: white;
+    text-align: center;
+    
+}
+
+.col4 {
+    /* border: solid black 3px; */
+    height: 250px;
+    margin-top: 80px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 255, 0.035);
+}
+
+.cont2 {
+    background-image: linear-gradient(120deg,rgb(224, 224, 251),rgb(248, 247, 250),rgb(224, 224, 251));
+    min-height:1100px;
+}
+.ourteam{
+    height:40px;
+margin-top: 20px;
+}
+
+
+.lastbox {
+    background-color: rgb(2, 2, 72);
+    color:white;
+    height: 250px;
+    /* border: 3px solid black; */
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.address {
+    background-color: white;
+    color: black;
+    min-height: 150px;
+}
+
+
+.curveDownColor {
+    fill: #fff;
+    stroke: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    margin-left: 14px;
+    background-color: rgb(2, 2, 72);
+}
+
+span.footer {
+    display: inline-block;
+    margin-top: 150px;
+}
+
+
+.head{
+    /* color: transparent; */
+    animation: anim 2s linear infinite alternate;
+}
+
+
+.articles-img{
+    transition: all 0.3s linear;
+}
+.articles-img:hover{
+    scale: 2;
+}
+.team-members{
+    transition: all 0.2s linear;
+}
+
+.team-members:hover{
+    scale: 1.2;
+}
+
+.nav-link:hover{
+    color: rgb(224, 224, 251);
+}
